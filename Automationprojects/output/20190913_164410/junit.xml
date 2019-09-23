@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="20190913_164410" timestamp="2019-09-13T16:44:10" time="15.042" tests="1" errors="1">
+  <testsuite id="1" name="unna" package="unna" hostname="ATMECSINDT-016" timestamp="2019-09-13T16:44:12" time="10.566" tests="1" errors="1">
+    <properties>
+      <property name="Run From" value="ATMECSINDT-016" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="Unnamalai.S" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="unna.xlsx" />
+      <property name="Logs" value="C:\projects\unna\output\20190913_164410\logs\nexial-20190913_164410.log" />
+      <property name="Data File" value="unna.data.xlsx" />
+      <property name="DataSheet(s)" value="Scenario" />
+      <property name="JAVA_OPT" value="-Dorg.apache.poi.util.POILogger=org.apache.poi.util.NullLogger" />
+      <property name="runtime args" value="-script C:\projects\unna\artifact\script\unna.xlsx" />
+    </properties>
+    <testcase id="Activity 1" name="Activity 1" classname="Scenario" timestamp="2019-09-13T16:44:14" time="8.246">
+      <failure type="failure found in test activity" message="1 of 1 FAILED. Check C:\projects\unna\output\20190913_164410\unna.20190913_164412.001.xlsx for execution result, C:\projects\unna\output\20190913_164410\logs\nexial-20190913_164410.log for execution logs" />
+      <system-out>Total : 1
+Passed: 0
+Failed: 1
+Output: C:\projects\unna\output\20190913_164410\unna.20190913_164412.001.xlsx
+Logs  : C:\projects\unna\output\20190913_164410\logs\nexial-20190913_164410.log</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

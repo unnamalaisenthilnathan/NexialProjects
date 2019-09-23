@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="20190923_121214" timestamp="2019-09-23T12:12:14" time="37.169" tests="16" errors="0">
+  <testsuite id="1" name="goibibo" package="goibibo" hostname="ATMECSINDT-016" timestamp="2019-09-23T12:12:16" time="32.207" tests="16" errors="0">
+    <properties>
+      <property name="Run From" value="ATMECSINDT-016" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="Unnamalai.S" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="goibibo.xlsx" />
+      <property name="Logs" value="C:\projects\Automationprojects\output\20190923_121214\logs\nexial-20190923_121214.log" />
+      <property name="Data File" value="goibibo.data.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="runtime args" value="-script C:\projects\Automationprojects\artifact\script\goibibo.xlsx" />
+    </properties>
+    <testcase id="Searching tickets" name="Searching tickets" classname="Scenario" timestamp="2019-09-23T12:12:19" time="29.190">
+      <system-out>Total : 16
+Passed: 16
+Failed: 0
+Output: C:\projects\Automationprojects\output\20190923_121214\goibibo.20190923_121216.001.xlsx
+Logs  : C:\projects\Automationprojects\output\20190923_121214\logs\nexial-20190923_121214.log</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

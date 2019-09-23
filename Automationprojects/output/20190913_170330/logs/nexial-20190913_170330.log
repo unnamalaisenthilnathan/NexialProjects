@@ -1,0 +1,87 @@
+2019-09-13 17:03:30,541|I|Thread-1|(DELAYED) nexial-core 2.4_0567 starting up...
+2019-09-13 17:03:30,547|I|Thread-1|(DELAYED) data file resolved as C:\Users\UNNAMA~1.S\AppData\Local\Temp\LyOGy\unna.data.xlsx
+2019-09-13 17:03:30,547|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-09-13 17:03:30,547|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-09-13 17:03:30,547|I|Thread-1|(DELAYED) [20190913_170330] [C:\projects\unna\artifact\script\unna.xlsx] resolve RUN ID as 20190913_170330
+2019-09-13 17:03:30,547|I|Thread-1|(DELAYED) [20190913_170330] [C:\projects\unna\artifact\script\unna.xlsx] new thread started
+2019-09-13 17:03:30,548|I|Thread-1|No predefined nexial-setup found
+2019-09-13 17:03:30,661|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-09-13 17:03:30,663|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-09-13 17:03:30,664|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-09-13 17:03:30,701|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-09-13 17:03:31,985|I|Thread-1|[20190913_170330] executing C:\projects\unna\artifact\script\unna.xlsx with 1 iteration(s)
+2019-09-13 17:03:32,013|I|Thread-1|[20190913_170330] create directory C:\projects\unna\output\20190913_170330\captures
+2019-09-13 17:03:32,015|I|Thread-1|[20190913_170330] create directory C:\projects\unna\output\20190913_170330\logs
+2019-09-13 17:03:33,098|I|Thread-1|[20190913_170330] merging test data to tmp file C:\projects\unna\output\20190913_170330\unna.20190913_170332.001.xlsx
+2019-09-13 17:03:33,106|I|Thread-1|refetching data from C:\projects\unna\artifact\data\unna.data.xlsx
+2019-09-13 17:03:33,600|I|Thread-1|[20190913_170330] test script and test data merged to C:\projects\unna\output\20190913_170330\unna.20190913_170332.001.xlsx
+2019-09-13 17:03:34,730|I|Thread-1|STARTS
+2019-09-13 17:03:34,760|I|Thread-1|unna.20190913_170332.001 - executing iteration #1 of 1; Iteration Id 1
+2019-09-13 17:03:34,775|I|Thread-1|unna.20190913_170332.001|Scenario - executing test scenario
+2019-09-13 17:03:34,777|I|Thread-1|unna.20190913_170332.001|Scenario|Activity 1 - executing activity
+2019-09-13 17:03:35,388|I|Thread-1|unna.20190913_170332.001|Scenario|Activity 1|#  5|web.open(url) - executing open(url)(https://www.goibibo.com/)
+2019-09-13 17:03:35,399|I|Thread-1|No valid instance of webdriver, initializing...
+2019-09-13 17:03:35,404|I|Thread-1|init chrome
+2019-09-13 17:03:39,112|I|Thread-1|browser initialization completed for 'chrome'
+2019-09-13 17:03:39,156|I|Thread-1|setting browser polling wait time to 800 ms
+2019-09-13 17:03:39,198|I|Thread-1|setting browser page load timeout to 10000 ms
+2019-09-13 17:03:46,185|I|Thread-1|current browser window handle:CDwindow-4D6BE0442B55933432F63335FFEA0FB3
+2019-09-13 17:03:46,288|I|Thread-1|unna.20190913_170332.001|Scenario|Activity 1|#  5|web.open(url) - PASS opened URL https://www.goibibo.com/
+2019-09-13 17:03:46,480|I|Thread-1|[unna.20190913_170332.001|Scenario] saving test scenario
+2019-09-13 17:03:46,652|I|Thread-1|[20190913_170330] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\unna\output\20190913_170330\unna.20190913_170332.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 11863 ms
+» Test Steps:     1
+» Error(s):       0
+
+
+
+2019-09-13 17:03:49,938|I|Thread-1|[20190913_170330] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\unna\artifact\script\unna.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 19669 ms
+» Iterations:     [1] total 1
+» Test Steps:     1
+» Passed:         1
+» Error(s):       0
+» Iteration 1 of 1: C:\projects\unna\output\20190913_170330\unna.20190913_170332.001.xlsx
+
+
+
+2019-09-13 17:03:50,348|I|main|[20190913_170330] [C:\projects\unna\artifact\script\unna.xlsx] now completed
+2019-09-13 17:03:50,349|I|main|[20190913_170330] all execution thread(s) have terminated
+2019-09-13 17:03:50,351|I|main|[20190913_170330] test run completed in about 20 seconds
+2019-09-13 17:03:50,489|I|main|No predefined nexial-setup found
+2019-09-13 17:03:50,530|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-09-13 17:03:50,533|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-09-13 17:03:50,533|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-09-13 17:03:50,535|I|main|generating HTML output for this execution to C:\projects\unna\output\20190913_170330\execution-output.html
+2019-09-13 17:03:51,568|I|main|generating JUnit XML output for this execution to C:\projects\unna\output\20190913_170330\junit.xml
+2019-09-13 17:03:51,632|I|main|generated JUnit report for this execution: C:\projects\unna\output\20190913_170330\junit.xml
+2019-09-13 17:03:51,651|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-09-13 17:03:51,658|I|main|skipped email notification as configured
+2019-09-13 17:03:51,661|I|main|exiting Nexial...
+2019-09-13 17:03:51,665|I|main|shutdown starts...
+2019-09-13 17:03:51,691|I|main|Shutting down 'chrome' webdriver...
+2019-09-13 17:03:59,652|I|main|shutdown ends...
+2019-09-13 17:03:59,654|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 20 sec.
+| » Test Steps....: 1
+| » Passed........: 1
+| » Failed........: 0
+| » Success Rate..: 100.00%
+\----------------------------------------------------------nexial-core 2.4_0567-
+
+2019-09-13 17:03:59,655|I|main|ALL PASSED!
+2019-09-13 17:03:59,657|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\unna\output\20190913_170330
+NEXIAL_EXECUTION_HTML: C:\projects\unna\output\20190913_170330\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\unna\output\20190913_170330\junit.xml
+NEXIAL_SUCCESS_RATE:   100.00%
+NEXIAL_EXIT_STATUS:    0

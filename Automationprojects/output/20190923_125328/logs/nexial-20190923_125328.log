@@ -1,0 +1,107 @@
+2019-09-23 12:53:29,034|I|Thread-1|(DELAYED) nexial-core 2.6_0632 starting up...
+2019-09-23 12:53:29,041|I|Thread-1|(DELAYED) data file resolved as C:\Users\UNNAMA~1.S\AppData\Local\Temp\TaVKR\gmailautomation.data.xlsx
+2019-09-23 12:53:29,041|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-09-23 12:53:29,042|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-09-23 12:53:29,042|I|Thread-1|(DELAYED) [20190923_125328] [C:\projects\Automationprojects\artifact\script\gmailautomation.xlsx] resolve RUN ID as 20190923_125328
+2019-09-23 12:53:29,042|I|Thread-1|(DELAYED) [20190923_125328] [C:\projects\Automationprojects\artifact\script\gmailautomation.xlsx] new thread started
+2019-09-23 12:53:29,042|I|Thread-1|No predefined nexial-setup found
+2019-09-23 12:53:29,190|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-09-23 12:53:29,190|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-09-23 12:53:29,192|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-09-23 12:53:29,237|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-09-23 12:53:30,817|I|Thread-1|[20190923_125328] executing C:\projects\Automationprojects\artifact\script\gmailautomation.xlsx with 1 iteration(s)
+2019-09-23 12:53:30,829|I|Thread-1|[20190923_125328] create directory C:\projects\Automationprojects\output\20190923_125328\captures
+2019-09-23 12:53:30,831|I|Thread-1|[20190923_125328] create directory C:\projects\Automationprojects\output\20190923_125328\logs
+2019-09-23 12:53:33,111|I|Thread-1|[20190923_125328] merging test data to tmp file C:\projects\Automationprojects\output\20190923_125328\gmailautomation.20190923_125330.001.xlsx
+2019-09-23 12:53:33,113|I|Thread-1|refetching data from C:\projects\Automationprojects\artifact\data\gmailautomation.data.xlsx
+2019-09-23 12:53:33,666|I|Thread-1|[20190923_125328] test script and test data merged to C:\projects\Automationprojects\output\20190923_125328\gmailautomation.20190923_125330.001.xlsx
+2019-09-23 12:53:34,623|I|Thread-1|STARTS
+2019-09-23 12:53:34,674|I|Thread-1|gmailautomation.20190923_125330.001 - executing iteration #1 of 1; Iteration Id 1
+2019-09-23 12:53:34,695|I|Thread-1|gmailautomation.20190923_125330.001|Scenario - executing test scenario
+2019-09-23 12:53:34,701|I|Thread-1|gmailautomation.20190923_125330.001|Scenario|Login - executing activity
+2019-09-23 12:53:35,306|I|Thread-1|gmailautomation.20190923_125330.001|Scenario|Login|#  5|web.open(url) - executing open(url)(${gmailloginURL})
+2019-09-23 12:53:35,313|I|Thread-1|No valid instance of webdriver, initializing...
+2019-09-23 12:53:35,317|I|Thread-1|init chrome
+2019-09-23 12:53:39,433|I|Thread-1|browser initialization completed for 'chrome'
+2019-09-23 12:53:39,506|I|Thread-1|setting browser polling wait time to 800 ms
+2019-09-23 12:53:39,552|I|Thread-1|setting browser page load timeout to 10000 ms
+2019-09-23 12:53:43,401|I|Thread-1|current browser window handle:CDwindow-F305075BCFE3D77BE815B1120366E8E7
+2019-09-23 12:53:46,730|I|Thread-1|gmailautomation.20190923_125330.001|Scenario|Login|#  5|web.open(url) - PASS opened URL https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin
+2019-09-23 12:53:47,391|I|Thread-1|gmailautomation.20190923_125330.001|Scenario|Login|#  6|web.maximizeWindow() - executing maximizeWindow()()
+2019-09-23 12:53:48,670|I|Thread-1|gmailautomation.20190923_125330.001|Scenario|Login|#  6|web.maximizeWindow() - PASS browser window maximized
+2019-09-23 12:53:49,277|I|Thread-1|gmailautomation.20190923_125330.001|Scenario|Login|#  7|web.type(locator,value) - executing type(locator,value)(${loc.gmail.username}, ${username})
+2019-09-23 12:53:49,984|I|Thread-1|gmailautomation.20190923_125330.001|Scenario|Login|#  7|web.type(locator,value) - PASS typed text at '(//input[@class='whsOnd zHQkBf'])[1]'
+2019-09-23 12:53:50,587|I|Thread-1|gmailautomation.20190923_125330.001|Scenario|Login|#  8|web.screenshot(file,locat - executing screenshot(file,locator)(${Filepath}, ${loc.gmail.username})
+2019-09-23 12:53:51,797|I|Thread-1|gmailautomation.20190923_125330.001|Scenario|Login|#  8|web.screenshot(file,locat - PASS Image captured for '(//input[@class='whsOnd zHQkBf'])[1]' to file 'C:\projects\Automationprojects\Screenshots\gmail.png'
+2019-09-23 12:53:52,405|I|Thread-1|gmailautomation.20190923_125330.001|Scenario|Login|#  9|web.click(locator) - executing click(locator)(${loc.gmail.next})
+2019-09-23 12:53:52,488|I|Thread-1|clicking '//span[@class='RveJvd snByac']'...
+2019-09-23 12:53:52,546|I|Thread-1|click target via JS, @id=
+2019-09-23 12:53:52,729|I|Thread-1|clicked -> true
+2019-09-23 12:53:52,733|I|Thread-1|gmailautomation.20190923_125330.001|Scenario|Login|#  9|web.click(locator) - PASS click via JS event
+2019-09-23 12:53:53,337|I|Thread-1|gmailautomation.20190923_125330.001|Scenario|Login|# 10|web.type(locator,value) - executing type(locator,value)(${loc.gmail.password}, ${password})
+2019-09-23 12:53:53,902|I|Thread-1|gmailautomation.20190923_125330.001|Scenario|Login|# 10|web.type(locator,value) - PASS typed text at '//input[@aria-label='Enter your password']'
+2019-09-23 12:53:54,505|I|Thread-1|gmailautomation.20190923_125330.001|Scenario|Login|# 11|web.screenshot(file,locat - executing screenshot(file,locator)(${Filepath}, ${loc.gmail.password})
+2019-09-23 12:53:55,385|I|Thread-1|gmailautomation.20190923_125330.001|Scenario|Login|# 11|web.screenshot(file,locat - PASS Image captured for '//input[@aria-label='Enter your password']' to file 'C:\projects\Automationprojects\Screenshots\gmail.png'
+2019-09-23 12:53:55,991|I|Thread-1|gmailautomation.20190923_125330.001|Scenario|Login|# 12|web.click(locator) - executing click(locator)(${loc.gmail.password.next})
+2019-09-23 12:53:56,105|I|Thread-1|clicking '(//span[@class='RveJvd snByac'])[1]'...
+2019-09-23 12:53:56,182|I|Thread-1|click target via JS, @id=
+2019-09-23 12:53:56,328|I|Thread-1|clicked -> true
+2019-09-23 12:53:56,332|I|Thread-1|gmailautomation.20190923_125330.001|Scenario|Login|# 12|web.click(locator) - PASS click via JS event
+2019-09-23 12:53:56,735|I|Thread-1|[gmailautomation.20190923_125330.001|Scenario] saving test scenario
+2019-09-23 12:53:57,205|I|Thread-1|[20190923_125328] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\Automationprojects\output\20190923_125328\gmailautomation.20190923_125330.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 22441 ms
+» Test Steps:     8
+» Error(s):       0
+
+
+
+2019-09-23 12:53:59,239|I|Thread-1|[20190923_125328] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\Automationprojects\artifact\script\gmailautomation.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 30475 ms
+» Iterations:     [1] total 1
+» Test Steps:     8
+» Passed:         8
+» Error(s):       0
+» Iteration 1 of 1: C:\projects\Automationprojects\output\20190923_125328\gmailautomation.20190923_125330.001.xlsx
+
+
+
+2019-09-23 12:53:59,847|I|main|[20190923_125328] [C:\projects\Automationprojects\artifact\script\gmailautomation.xlsx] now completed
+2019-09-23 12:53:59,848|I|main|[20190923_125328] all execution thread(s) have terminated
+2019-09-23 12:53:59,850|I|main|[20190923_125328] test run completed in about 31 seconds
+2019-09-23 12:54:00,203|I|main|No predefined nexial-setup found
+2019-09-23 12:54:00,414|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-09-23 12:54:00,418|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-09-23 12:54:00,420|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-09-23 12:54:00,426|I|main|generating HTML output for this execution to C:\projects\Automationprojects\output\20190923_125328\execution-output.html
+2019-09-23 12:54:02,520|I|main|generating JUnit XML output for this execution to C:\projects\Automationprojects\output\20190923_125328\junit.xml
+2019-09-23 12:54:02,609|I|main|generated JUnit report for this execution: C:\projects\Automationprojects\output\20190923_125328\junit.xml
+2019-09-23 12:54:02,611|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-09-23 12:54:02,612|I|main|skipped email notification as configured
+2019-09-23 12:54:02,615|I|main|exiting Nexial...
+2019-09-23 12:54:02,616|I|main|shutdown starts...
+2019-09-23 12:54:02,622|I|main|Shutting down 'chrome' webdriver...
+2019-09-23 12:54:08,470|I|main|shutdown ends...
+2019-09-23 12:54:08,477|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 31 sec.
+| » Test Steps....: 8
+| » Passed........: 8
+| » Failed........: 0
+| » Success Rate..: 100.00%
+\----------------------------------------------------------nexial-core 2.6_0632-
+
+2019-09-23 12:54:08,492|I|main|ALL PASSED!
+2019-09-23 12:54:08,510|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\Automationprojects\output\20190923_125328
+NEXIAL_EXECUTION_HTML: C:\projects\Automationprojects\output\20190923_125328\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\Automationprojects\output\20190923_125328\junit.xml
+NEXIAL_SUCCESS_RATE:   100.00%
+NEXIAL_EXIT_STATUS:    0

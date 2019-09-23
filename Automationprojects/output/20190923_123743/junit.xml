@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="20190923_123743" timestamp="2019-09-23T12:37:43" time="26.047" tests="7" errors="0">
+  <testsuite id="1" name="orangehrm" package="orangehrm" hostname="ATMECSINDT-016" timestamp="2019-09-23T12:37:44" time="21.861" tests="7" errors="0">
+    <properties>
+      <property name="Run From" value="ATMECSINDT-016" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="Unnamalai.S" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="orangehrm.xlsx" />
+      <property name="Logs" value="C:\projects\Automationprojects\output\20190923_123743\logs\nexial-20190923_123743.log" />
+      <property name="Data File" value="orangehrm.data.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="runtime args" value="-script C:\projects\Automationprojects\artifact\script\orangehrm.xlsx" />
+    </properties>
+    <testcase id="Login" name="Login" classname="Scenario" timestamp="2019-09-23T12:37:47" time="19.423">
+      <system-out>Total : 7
+Passed: 7
+Failed: 0
+Output: C:\projects\Automationprojects\output\20190923_123743\orangehrm.20190923_123744.001.xlsx
+Logs  : C:\projects\Automationprojects\output\20190923_123743\logs\nexial-20190923_123743.log</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

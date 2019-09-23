@@ -1,0 +1,157 @@
+2019-09-13 16:44:11,065|I|Thread-1|(DELAYED) nexial-core 2.4_0567 starting up...
+2019-09-13 16:44:11,065|I|Thread-1|(DELAYED) data file resolved as C:\Users\UNNAMA~1.S\AppData\Local\Temp\reeWx\unna.data.xlsx
+2019-09-13 16:44:11,065|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-09-13 16:44:11,065|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-09-13 16:44:11,065|I|Thread-1|(DELAYED) [20190913_164410] [C:\projects\unna\artifact\script\unna.xlsx] resolve RUN ID as 20190913_164410
+2019-09-13 16:44:11,065|I|Thread-1|(DELAYED) [20190913_164410] [C:\projects\unna\artifact\script\unna.xlsx] new thread started
+2019-09-13 16:44:11,065|I|Thread-1|No predefined nexial-setup found
+2019-09-13 16:44:11,153|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-09-13 16:44:11,153|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-09-13 16:44:11,153|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-09-13 16:44:11,194|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-09-13 16:44:12,024|I|Thread-1|[20190913_164410] executing C:\projects\unna\artifact\script\unna.xlsx with 1 iteration(s)
+2019-09-13 16:44:12,024|I|Thread-1|[20190913_164410] create directory C:\projects\unna\output\20190913_164410\captures
+2019-09-13 16:44:12,024|I|Thread-1|[20190913_164410] create directory C:\projects\unna\output\20190913_164410\logs
+2019-09-13 16:44:12,756|I|Thread-1|[20190913_164410] merging test data to tmp file C:\projects\unna\output\20190913_164410\unna.20190913_164412.001.xlsx
+2019-09-13 16:44:12,763|I|Thread-1|refetching data from C:\projects\unna\artifact\data\unna.data.xlsx
+2019-09-13 16:44:13,244|I|Thread-1|[20190913_164410] test script and test data merged to C:\projects\unna\output\20190913_164410\unna.20190913_164412.001.xlsx
+2019-09-13 16:44:14,307|I|Thread-1|STARTS
+2019-09-13 16:44:14,331|I|Thread-1|unna.20190913_164412.001 - executing iteration #1 of 1; Iteration Id 1
+2019-09-13 16:44:14,341|I|Thread-1|unna.20190913_164412.001|Scenario - executing test scenario
+2019-09-13 16:44:14,344|I|Thread-1|unna.20190913_164412.001|Scenario|Activity 1 - executing activity
+2019-09-13 16:44:14,950|I|Thread-1|unna.20190913_164412.001|Scenario|Activity 1|#  5|web.open(url) - executing open(url)(https://www.goibibo.com/)
+2019-09-13 16:44:14,950|I|Thread-1|No valid instance of webdriver, initializing...
+2019-09-13 16:44:14,950|I|Thread-1|init chrome
+2019-09-13 16:44:15,219|I|Thread-1|unna.20190913_164412.001|Scenario|Activity 1|#  5|web.open(url) - Executing request GET https://chromedriver.storage.googleapis.com/LATEST_RELEASE HTTP/1.1
+2019-09-13 16:44:15,219|I|Thread-1|Executing request GET https://chromedriver.storage.googleapis.com/LATEST_RELEASE HTTP/1.1
+2019-09-13 16:44:16,102|I|Thread-1|unna.20190913_164412.001|Scenario|Activity 1|#  5|web.open(url) - Executed request GET https://chromedriver.storage.googleapis.com/LATEST_RELEASE HTTP/1.1: HTTP/1.1 200 OK
+2019-09-13 16:44:16,102|I|Thread-1|Executed request GET https://chromedriver.storage.googleapis.com/LATEST_RELEASE HTTP/1.1: HTTP/1.1 200 OK
+2019-09-13 16:44:16,102|I|Thread-1|unna.20190913_164412.001|Scenario|Activity 1|#  5|web.open(url) - Saving response payload as raw bytes to Response object
+2019-09-13 16:44:16,118|I|Thread-1|Saving response payload as raw bytes to Response object
+2019-09-13 16:44:16,118|I|Thread-1|[Chrome] derived download URL as https://chromedriver.storage.googleapis.com/77.0.3865.40/chromedriver_win32.zip
+2019-09-13 16:44:16,118|I|Thread-1|unna.20190913_164412.001|Scenario|Activity 1|#  5|web.open(url) - Executing request GET https://chromedriver.storage.googleapis.com/77.0.3865.40/chromedriver_win32.zip HTTP/1.1
+2019-09-13 16:44:16,118|I|Thread-1|Executing request GET https://chromedriver.storage.googleapis.com/77.0.3865.40/chromedriver_win32.zip HTTP/1.1
+2019-09-13 16:44:16,318|I|Thread-1|unna.20190913_164412.001|Scenario|Activity 1|#  5|web.open(url) - Executed request GET https://chromedriver.storage.googleapis.com/77.0.3865.40/chromedriver_win32.zip HTTP/1.1: HTTP/1.1 200 OK
+2019-09-13 16:44:16,334|I|Thread-1|Executed request GET https://chromedriver.storage.googleapis.com/77.0.3865.40/chromedriver_win32.zip HTTP/1.1: HTTP/1.1 200 OK
+2019-09-13 16:44:16,334|I|Thread-1|unna.20190913_164412.001|Scenario|Activity 1|#  5|web.open(url) - Saving response payload to C:\Users\Unnamalai.S\.nexial\chrome\chromedriver.exe.zip
+2019-09-13 16:44:16,334|I|Thread-1|Saving response payload to C:\Users\Unnamalai.S\.nexial\chrome\chromedriver.exe.zip
+2019-09-13 16:44:17,249|I|Thread-1|[C:\Users\Unnamalai.S\.nexial\chrome\chromedriver.exe.zip]: Unzipping to C:\Users\Unnamalai.S\.nexial\chrome\chromedriver.exe
+2019-09-13 16:44:17,467|I|Thread-1|[WebDriverHelper] webdriver for chrome downloaded to C:\Users\Unnamalai.S\.nexial\chrome\chromedriver.exe
+2019-09-13 16:44:21,351|E|Thread-1|Error initializing browser 'chrome': session not created: This version of ChromeDriver only supports Chrome version 77
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINDT-016', ip: '192.168.39.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0154EB13+1501971]
+	Ordinal0 [0x014CF6D1+980689]
+	Ordinal0 [0x0145765F+489055]
+	Ordinal0 [0x013EF2F4+62196]
+	Ordinal0 [0x013EBCDA+48346]
+	Ordinal0 [0x01409800+169984]
+	Ordinal0 [0x0140942D+169005]
+	Ordinal0 [0x014078EB+162027]
+	Ordinal0 [0x013F0AC7+68295]
+	Ordinal0 [0x013F1B40+72512]
+	Ordinal0 [0x013F1AD9+72409]
+	Ordinal0 [0x014E8F37+1085239]
+	GetHandleVerifier [0x015ED7ED+503293]
+	GetHandleVerifier [0x015ED580+502672]
+	GetHandleVerifier [0x015F46AC+531644]
+	GetHandleVerifier [0x015EDFFA+505354]
+	Ordinal0 [0x014E0606+1050118]
+	Ordinal0 [0x014E047F+1049727]
+	Ordinal0 [0x014EAF9B+1093531]
+	Ordinal0 [0x014EB103+1093891]
+	Ordinal0 [0x014EA095+1089685]
+	BaseThreadInitThunk [0x75FBFE09+25]
+	RtlGetAppContainerNamedObjectPath [0x7742607D+237]
+	RtlGetAppContainerNamedObjectPath [0x7742604D+189]
+
+2019-09-13 16:44:21,702|I|Thread-1|unna.20190913_164412.001|Scenario|Activity 1|#  5|web.open(url) - FAIL Error initializing browser 'chrome': session not created: This version of ChromeDriver only supports Chrome version 77
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINDT-016', ip: '192.168.39.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0154EB13+1501971]
+	Ordinal0 [0x014CF6D1+980689]
+	Ordinal0 [0x0145765F+489055]
+	Ordinal0 [0x013EF2F4+62196]
+	Ordinal0 [0x013EBCDA+48346]
+	Ordinal0 [0x01409800+169984]
+	Ordinal0 [0x0140942D+169005]
+	Ordinal0 [0x014078EB+162027]
+	Ordinal0 [0x013F0AC7+68295]
+	Ordinal0 [0x013F1B40+72512]
+	Ordinal0 [0x013F1AD9+72409]
+	Ordinal0 [0x014E8F37+1085239]
+	GetHandleVerifier [0x015ED7ED+503293]
+	GetHandleVerifier [0x015ED580+502672]
+	GetHandleVerifier [0x015F46AC+531644]
+	GetHandleVerifier [0x015EDFFA+505354]
+	Ordinal0 [0x014E0606+1050118]
+	Ordinal0 [0x014E047F+1049727]
+	Ordinal0 [0x014EAF9B+1093531]
+	Ordinal0 [0x014EB103+1093891]
+	Ordinal0 [0x014EA095+1089685]
+	BaseThreadInitThunk [0x75FBFE09+25]
+	RtlGetAppContainerNamedObjectPath [0x7742607D+237]
+	RtlGetAppContainerNamedObjectPath [0x7742604D+189]
+
+2019-09-13 16:44:21,832|I|Thread-1|unna.20190913_164412.001|Scenario|Activity 1 - [ABORT] due to failure on fail-fast command: web.open(url)
+2019-09-13 16:44:22,266|I|Thread-1|[unna.20190913_164412.001|Scenario] saving test scenario
+2019-09-13 16:44:22,456|I|Thread-1|unna.20190913_164412.001 - [ABORT] fail-immediate in effect - test execution will stop now.
+2019-09-13 16:44:22,466|I|Thread-1|[20190913_164410] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\unna\output\20190913_164410\unna.20190913_164412.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 8129 ms
+» Test Steps:     1
+» Error(s):       1
+
+
+
+2019-09-13 16:44:22,468|I|Thread-1|unna.20190913_164412.001 - [ABORT] fail-immediate in effect - test execution will stop now.
+2019-09-13 16:44:25,200|I|Thread-1|[20190913_164410] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\unna\artifact\script\unna.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 14352 ms
+» Iterations:     [1] total 1
+» Test Steps:     1
+» Passed:         0
+» Error(s):       1
+» Iteration 1 of 1: C:\projects\unna\output\20190913_164410\unna.20190913_164412.001.xlsx
+
+
+
+2019-09-13 16:44:25,821|I|main|[20190913_164410] [C:\projects\unna\artifact\script\unna.xlsx] now completed
+2019-09-13 16:44:25,821|I|main|[20190913_164410] all execution thread(s) have terminated
+2019-09-13 16:44:25,821|I|main|[20190913_164410] test run completed in about 15 seconds
+2019-09-13 16:44:25,954|I|main|No predefined nexial-setup found
+2019-09-13 16:44:26,019|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-09-13 16:44:26,021|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-09-13 16:44:26,023|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-09-13 16:44:26,023|I|main|generating HTML output for this execution to C:\projects\unna\output\20190913_164410\execution-output.html
+2019-09-13 16:44:26,997|I|main|generating JUnit XML output for this execution to C:\projects\unna\output\20190913_164410\junit.xml
+2019-09-13 16:44:27,037|I|main|generated JUnit report for this execution: C:\projects\unna\output\20190913_164410\junit.xml
+2019-09-13 16:44:27,053|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-09-13 16:44:27,074|I|main|skipped email notification as configured
+2019-09-13 16:44:27,077|I|main|exiting Nexial...
+2019-09-13 16:44:27,082|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 15 sec.
+| » Test Steps....: 1
+| » Passed........: 0
+| » Failed........: 1
+| » Success Rate..: 0.00%
+\----------------------------------------------------------nexial-core 2.4_0567-
+
+2019-09-13 16:44:27,085|E|main|failure found; success rate is 0.00%
+2019-09-13 16:44:27,086|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\unna\output\20190913_164410
+NEXIAL_EXECUTION_HTML: C:\projects\unna\output\20190913_164410\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\unna\output\20190913_164410\junit.xml
+NEXIAL_SUCCESS_RATE:   0.00%
+NEXIAL_EXIT_STATUS:    -13

@@ -1,0 +1,105 @@
+2019-09-23 12:42:13,063|I|Thread-1|(DELAYED) nexial-core 2.6_0632 starting up...
+2019-09-23 12:42:13,069|I|Thread-1|(DELAYED) data file resolved as C:\Users\UNNAMA~1.S\AppData\Local\Temp\cYVAZ\orangehrm.data.xlsx
+2019-09-23 12:42:13,070|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-09-23 12:42:13,070|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-09-23 12:42:13,070|I|Thread-1|(DELAYED) [20190923_124212] [C:\projects\Automationprojects\artifact\script\orangehrm.xlsx] resolve RUN ID as 20190923_124212
+2019-09-23 12:42:13,070|I|Thread-1|(DELAYED) [20190923_124212] [C:\projects\Automationprojects\artifact\script\orangehrm.xlsx] new thread started
+2019-09-23 12:42:13,070|I|Thread-1|No predefined nexial-setup found
+2019-09-23 12:42:13,165|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-09-23 12:42:13,166|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-09-23 12:42:13,167|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-09-23 12:42:13,203|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-09-23 12:42:14,198|I|Thread-1|[20190923_124212] executing C:\projects\Automationprojects\artifact\script\orangehrm.xlsx with 1 iteration(s)
+2019-09-23 12:42:14,209|I|Thread-1|[20190923_124212] create directory C:\projects\Automationprojects\output\20190923_124212\captures
+2019-09-23 12:42:14,211|I|Thread-1|[20190923_124212] create directory C:\projects\Automationprojects\output\20190923_124212\logs
+2019-09-23 12:42:15,159|I|Thread-1|[20190923_124212] merging test data to tmp file C:\projects\Automationprojects\output\20190923_124212\orangehrm.20190923_124214.001.xlsx
+2019-09-23 12:42:15,160|I|Thread-1|refetching data from C:\projects\Automationprojects\artifact\data\orangehrm.data.xlsx
+2019-09-23 12:42:15,619|I|Thread-1|[20190923_124212] test script and test data merged to C:\projects\Automationprojects\output\20190923_124212\orangehrm.20190923_124214.001.xlsx
+2019-09-23 12:42:16,425|I|Thread-1|STARTS
+2019-09-23 12:42:16,454|I|Thread-1|orangehrm.20190923_124214.001 - executing iteration #1 of 1; Iteration Id 1
+2019-09-23 12:42:16,465|I|Thread-1|orangehrm.20190923_124214.001|Scenario - executing test scenario
+2019-09-23 12:42:16,468|I|Thread-1|orangehrm.20190923_124214.001|Scenario|Login - executing activity
+2019-09-23 12:42:17,070|I|Thread-1|orangehrm.20190923_124214.001|Scenario|Login|#  5|web.open(url) - executing open(url)(${URLorangehrm})
+2019-09-23 12:42:17,073|I|Thread-1|No valid instance of webdriver, initializing...
+2019-09-23 12:42:17,076|I|Thread-1|init chrome
+2019-09-23 12:42:20,610|I|Thread-1|browser initialization completed for 'chrome'
+2019-09-23 12:42:20,668|I|Thread-1|setting browser polling wait time to 800 ms
+2019-09-23 12:42:20,709|I|Thread-1|setting browser page load timeout to 10000 ms
+2019-09-23 12:42:23,489|I|Thread-1|current browser window handle:CDwindow-823431A0A962D89D580BEADD1D4A398E
+2019-09-23 12:42:23,787|I|Thread-1|orangehrm.20190923_124214.001|Scenario|Login|#  5|web.open(url) - PASS opened URL https://s2.demo.opensourcecms.com/orangehrm/symfony/web/index.php/auth/login
+2019-09-23 12:42:24,393|I|Thread-1|orangehrm.20190923_124214.001|Scenario|Login|#  6|web.maximizeWindow() - executing maximizeWindow()()
+2019-09-23 12:42:25,608|I|Thread-1|orangehrm.20190923_124214.001|Scenario|Login|#  6|web.maximizeWindow() - PASS browser window maximized
+2019-09-23 12:42:26,211|I|Thread-1|orangehrm.20190923_124214.001|Scenario|Login|#  7|web.type(locator,value) - executing type(locator,value)(${loc.orangehrm.username}, ${username})
+2019-09-23 12:42:26,765|I|Thread-1|orangehrm.20190923_124214.001|Scenario|Login|#  7|web.type(locator,value) - PASS typed text at '//input[@name='txtUsername']'
+2019-09-23 12:42:27,369|I|Thread-1|orangehrm.20190923_124214.001|Scenario|Login|#  8|web.click(locator) - executing click(locator)(${loc.orangehrm.password})
+2019-09-23 12:42:27,434|I|Thread-1|clicking '//input[@name='txtPassword']	'...
+2019-09-23 12:42:27,474|I|Thread-1|click target via JS, @id=txtPassword
+2019-09-23 12:42:27,539|I|Thread-1|clicked -> true
+2019-09-23 12:42:27,542|I|Thread-1|orangehrm.20190923_124214.001|Scenario|Login|#  8|web.click(locator) - PASS click via JS event
+2019-09-23 12:42:28,144|I|Thread-1|orangehrm.20190923_124214.001|Scenario|Login|#  9|web.type(locator,value) - executing type(locator,value)(${loc.orangehrm.password}, ${password})
+2019-09-23 12:42:28,682|I|Thread-1|orangehrm.20190923_124214.001|Scenario|Login|#  9|web.type(locator,value) - PASS typed text at '//input[@name='txtPassword']	'
+2019-09-23 12:42:29,288|I|Thread-1|orangehrm.20190923_124214.001|Scenario|Login|# 10|web.screenshot(file,locat - executing screenshot(file,locator)(${filedemo}, ${loc.orangehrm.password})
+2019-09-23 12:42:30,579|I|Thread-1|orangehrm.20190923_124214.001|Scenario|Login|# 10|web.screenshot(file,locat - PASS Image captured for '//input[@name='txtPassword']	' to file 'C:\projects\gmailautomation\artifact\screenshots\pics.png'
+2019-09-23 12:42:31,196|I|Thread-1|orangehrm.20190923_124214.001|Scenario|Login|# 11|web.click(locator) - executing click(locator)(${loc.orangehrm.click})
+2019-09-23 12:42:31,295|I|Thread-1|clicking '//input[@class='button']'...
+2019-09-23 12:42:31,357|I|Thread-1|click target via JS, @id=btnLogin
+2019-09-23 12:42:34,215|I|Thread-1|clicked -> true
+2019-09-23 12:42:34,218|I|Thread-1|orangehrm.20190923_124214.001|Scenario|Login|# 11|web.click(locator) - PASS click via JS event
+2019-09-23 12:42:34,616|I|Thread-1|[orangehrm.20190923_124214.001|Scenario] saving test scenario
+2019-09-23 12:42:34,864|I|Thread-1|[20190923_124212] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\Automationprojects\output\20190923_124212\orangehrm.20190923_124214.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 18399 ms
+» Test Steps:     7
+» Error(s):       0
+
+
+
+2019-09-23 12:42:37,828|I|Thread-1|[20190923_124212] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\Automationprojects\artifact\script\orangehrm.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 25006 ms
+» Iterations:     [1] total 1
+» Test Steps:     7
+» Passed:         7
+» Error(s):       0
+» Iteration 1 of 1: C:\projects\Automationprojects\output\20190923_124212\orangehrm.20190923_124214.001.xlsx
+
+
+
+2019-09-23 12:42:37,892|I|main|[20190923_124212] [C:\projects\Automationprojects\artifact\script\orangehrm.xlsx] now completed
+2019-09-23 12:42:37,893|I|main|[20190923_124212] all execution thread(s) have terminated
+2019-09-23 12:42:37,894|I|main|[20190923_124212] test run completed in about 25 seconds
+2019-09-23 12:42:38,089|I|main|No predefined nexial-setup found
+2019-09-23 12:42:38,260|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-09-23 12:42:38,263|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-09-23 12:42:38,266|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-09-23 12:42:38,269|I|main|generating HTML output for this execution to C:\projects\Automationprojects\output\20190923_124212\execution-output.html
+2019-09-23 12:42:39,661|I|main|generating JUnit XML output for this execution to C:\projects\Automationprojects\output\20190923_124212\junit.xml
+2019-09-23 12:42:39,710|I|main|generated JUnit report for this execution: C:\projects\Automationprojects\output\20190923_124212\junit.xml
+2019-09-23 12:42:39,729|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-09-23 12:42:39,730|I|main|skipped email notification as configured
+2019-09-23 12:42:39,731|I|main|exiting Nexial...
+2019-09-23 12:42:39,732|I|main|shutdown starts...
+2019-09-23 12:42:39,733|I|main|Shutting down 'chrome' webdriver...
+2019-09-23 12:42:44,006|I|main|shutdown ends...
+2019-09-23 12:42:44,014|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 25 sec.
+| » Test Steps....: 7
+| » Passed........: 7
+| » Failed........: 0
+| » Success Rate..: 100.00%
+\----------------------------------------------------------nexial-core 2.6_0632-
+
+2019-09-23 12:42:44,027|I|main|ALL PASSED!
+2019-09-23 12:42:44,031|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\Automationprojects\output\20190923_124212
+NEXIAL_EXECUTION_HTML: C:\projects\Automationprojects\output\20190923_124212\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\Automationprojects\output\20190923_124212\junit.xml
+NEXIAL_SUCCESS_RATE:   100.00%
+NEXIAL_EXIT_STATUS:    0

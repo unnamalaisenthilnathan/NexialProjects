@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="20190923_113758" timestamp="2019-09-23T11:37:58" time="8.022" tests="1" errors="1">
+  <testsuite id="1" name="EmployeeDetails" package="EmployeeDetails" hostname="ATMECSINDT-016" timestamp="2019-09-23T11:38:00" time="3.483" tests="1" errors="1">
+    <properties>
+      <property name="Run From" value="ATMECSINDT-016" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="Unnamalai.S" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="EmployeeDetails.xlsx" />
+      <property name="Logs" value="C:\projects\Automationprojects\output\20190923_113758\logs\nexial-20190923_113758.log" />
+      <property name="Data File" value="EmployeeDetails.data.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="runtime args" value="-script C:\projects\Automationprojects\artifact\script\EmployeeDetails.xlsx" />
+    </properties>
+    <testcase id="Read Data" name="Read Data" classname="Scenario" timestamp="2019-09-23T11:38:02" time="1.246">
+      <failure type="failure found in test activity" message="1 of 1 FAILED. Check C:\projects\Automationprojects\output\20190923_113758\EmployeeDetails.20190923_113800.001.xlsx for execution result, C:\projects\Automationprojects\output\20190923_113758\logs\nexial-20190923_113758.log for execution logs" />
+      <system-out>Total : 1
+Passed: 0
+Failed: 1
+Output: C:\projects\Automationprojects\output\20190923_113758\EmployeeDetails.20190923_113800.001.xlsx
+Logs  : C:\projects\Automationprojects\output\20190923_113758\logs\nexial-20190923_113758.log</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

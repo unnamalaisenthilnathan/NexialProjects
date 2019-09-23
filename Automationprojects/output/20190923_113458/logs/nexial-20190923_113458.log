@@ -1,0 +1,78 @@
+2019-09-23 11:34:58,731|I|Thread-1|(DELAYED) nexial-core 2.6_0632 starting up...
+2019-09-23 11:34:58,738|I|Thread-1|(DELAYED) data file resolved as C:\Users\UNNAMA~1.S\AppData\Local\Temp\WJugN\EmployeeDetails.data.xlsx
+2019-09-23 11:34:58,738|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-09-23 11:34:58,738|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-09-23 11:34:58,738|I|Thread-1|(DELAYED) [20190923_113458] [C:\projects\Automationprojects\artifact\script\EmployeeDetails.xlsx] resolve RUN ID as 20190923_113458
+2019-09-23 11:34:58,738|I|Thread-1|(DELAYED) [20190923_113458] [C:\projects\Automationprojects\artifact\script\EmployeeDetails.xlsx] new thread started
+2019-09-23 11:34:58,739|I|Thread-1|No predefined nexial-setup found
+2019-09-23 11:34:58,859|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-09-23 11:34:58,861|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-09-23 11:34:58,862|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-09-23 11:34:58,922|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-09-23 11:35:00,049|I|Thread-1|[20190923_113458] executing C:\projects\Automationprojects\artifact\script\EmployeeDetails.xlsx with 1 iteration(s)
+2019-09-23 11:35:00,062|I|Thread-1|[20190923_113458] create directory C:\projects\Automationprojects\output\20190923_113458\captures
+2019-09-23 11:35:00,065|I|Thread-1|[20190923_113458] create directory C:\projects\Automationprojects\output\20190923_113458\logs
+2019-09-23 11:35:00,889|I|Thread-1|[20190923_113458] merging test data to tmp file C:\projects\Automationprojects\output\20190923_113458\EmployeeDetails.20190923_113500.001.xlsx
+2019-09-23 11:35:00,891|I|Thread-1|refetching data from C:\projects\Automationprojects\artifact\data\EmployeeDetails.data.xlsx
+2019-09-23 11:35:01,294|I|Thread-1|[20190923_113458] test script and test data merged to C:\projects\Automationprojects\output\20190923_113458\EmployeeDetails.20190923_113500.001.xlsx
+2019-09-23 11:35:02,106|I|Thread-1|STARTS
+2019-09-23 11:35:02,158|I|Thread-1|EmployeeDetails.20190923_113500.001 - executing iteration #1 of 1; Iteration Id 1
+2019-09-23 11:35:02,171|I|Thread-1|EmployeeDetails.20190923_113500.001|Scenario - executing test scenario
+2019-09-23 11:35:02,174|I|Thread-1|EmployeeDetails.20190923_113500.001|Scenario|Read Data - executing activity
+2019-09-23 11:35:02,776|I|Thread-1|EmployeeDetails.20190923_113500.001|Scenario|Read Data|#  5|csv.fromExcel(excel,works - executing fromExcel(excel,worksheet,csvFile)(${excelsheetpath}, ${sheetname}, ${csvfilepath})
+2019-09-23 11:35:02,962|E|Thread-1|EmployeeDetails.20190923_113500.001|Scenario|Read Data|#  5|csv.fromExcel(excel,works - FAIL invalid worksheet: {}
+2019-09-23 11:35:03,086|I|Thread-1|[EmployeeDetails.20190923_113500.001|Scenario] saving test scenario
+2019-09-23 11:35:03,251|I|Thread-1|[20190923_113458] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\Automationprojects\output\20190923_113458\EmployeeDetails.20190923_113500.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 1078 ms
+» Test Steps:     1
+» Error(s):       1
+
+
+
+2019-09-23 11:35:05,318|I|Thread-1|[20190923_113458] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\Automationprojects\artifact\script\EmployeeDetails.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 7047 ms
+» Iterations:     [1] total 1
+» Test Steps:     1
+» Passed:         0
+» Error(s):       1
+» Iteration 1 of 1: C:\projects\Automationprojects\output\20190923_113458\EmployeeDetails.20190923_113500.001.xlsx
+
+
+
+2019-09-23 11:35:06,151|I|main|[20190923_113458] [C:\projects\Automationprojects\artifact\script\EmployeeDetails.xlsx] now completed
+2019-09-23 11:35:06,155|I|main|[20190923_113458] all execution thread(s) have terminated
+2019-09-23 11:35:06,158|I|main|[20190923_113458] test run completed in about 8 seconds
+2019-09-23 11:35:06,273|I|main|No predefined nexial-setup found
+2019-09-23 11:35:06,312|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-09-23 11:35:06,314|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-09-23 11:35:06,314|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-09-23 11:35:06,316|I|main|generating HTML output for this execution to C:\projects\Automationprojects\output\20190923_113458\execution-output.html
+2019-09-23 11:35:06,903|I|main|generating JUnit XML output for this execution to C:\projects\Automationprojects\output\20190923_113458\junit.xml
+2019-09-23 11:35:06,944|I|main|generated JUnit report for this execution: C:\projects\Automationprojects\output\20190923_113458\junit.xml
+2019-09-23 11:35:06,961|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-09-23 11:35:06,962|I|main|skipped email notification as configured
+2019-09-23 11:35:06,963|I|main|exiting Nexial...
+2019-09-23 11:35:06,968|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 8 sec.
+| » Test Steps....: 1
+| » Passed........: 0
+| » Failed........: 1
+| » Success Rate..: 0.00%
+\----------------------------------------------------------nexial-core 2.6_0632-
+
+2019-09-23 11:35:06,976|E|main|failure found; success rate is 0.00%
+2019-09-23 11:35:06,985|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\Automationprojects\output\20190923_113458
+NEXIAL_EXECUTION_HTML: C:\projects\Automationprojects\output\20190923_113458\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\Automationprojects\output\20190923_113458\junit.xml
+NEXIAL_SUCCESS_RATE:   0.00%
+NEXIAL_EXIT_STATUS:    -13

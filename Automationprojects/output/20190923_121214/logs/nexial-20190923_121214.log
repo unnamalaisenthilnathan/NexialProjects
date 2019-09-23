@@ -1,0 +1,144 @@
+2019-09-23 12:12:15,090|I|Thread-1|(DELAYED) nexial-core 2.6_0632 starting up...
+2019-09-23 12:12:15,111|I|Thread-1|(DELAYED) data file resolved as C:\Users\UNNAMA~1.S\AppData\Local\Temp\wnqUG\goibibo.data.xlsx
+2019-09-23 12:12:15,111|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-09-23 12:12:15,111|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-09-23 12:12:15,111|I|Thread-1|(DELAYED) [20190923_121214] [C:\projects\Automationprojects\artifact\script\goibibo.xlsx] resolve RUN ID as 20190923_121214
+2019-09-23 12:12:15,111|I|Thread-1|(DELAYED) [20190923_121214] [C:\projects\Automationprojects\artifact\script\goibibo.xlsx] new thread started
+2019-09-23 12:12:15,112|I|Thread-1|No predefined nexial-setup found
+2019-09-23 12:12:15,264|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-09-23 12:12:15,266|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-09-23 12:12:15,267|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-09-23 12:12:15,336|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-09-23 12:12:16,743|I|Thread-1|[20190923_121214] executing C:\projects\Automationprojects\artifact\script\goibibo.xlsx with 1 iteration(s)
+2019-09-23 12:12:16,756|I|Thread-1|[20190923_121214] create directory C:\projects\Automationprojects\output\20190923_121214\captures
+2019-09-23 12:12:16,759|I|Thread-1|[20190923_121214] create directory C:\projects\Automationprojects\output\20190923_121214\logs
+2019-09-23 12:12:17,771|I|Thread-1|[20190923_121214] merging test data to tmp file C:\projects\Automationprojects\output\20190923_121214\goibibo.20190923_121216.001.xlsx
+2019-09-23 12:12:17,772|I|Thread-1|refetching data from C:\projects\Automationprojects\artifact\data\goibibo.data.xlsx
+2019-09-23 12:12:18,314|I|Thread-1|[20190923_121214] test script and test data merged to C:\projects\Automationprojects\output\20190923_121214\goibibo.20190923_121216.001.xlsx
+2019-09-23 12:12:19,674|I|Thread-1|STARTS
+2019-09-23 12:12:19,746|I|Thread-1|goibibo.20190923_121216.001 - executing iteration #1 of 1; Iteration Id 1
+2019-09-23 12:12:19,761|I|Thread-1|goibibo.20190923_121216.001|Scenario - executing test scenario
+2019-09-23 12:12:19,765|I|Thread-1|goibibo.20190923_121216.001|Scenario|Searching tickets - executing activity
+2019-09-23 12:12:20,372|I|Thread-1|goibibo.20190923_121216.001|Scenario|Searching tickets|#  5|web.open(url) - executing open(url)(https://www.goibibo.com)
+2019-09-23 12:12:20,379|I|Thread-1|No valid instance of webdriver, initializing...
+2019-09-23 12:12:20,387|I|Thread-1|init chrome
+2019-09-23 12:12:24,200|I|Thread-1|browser initialization completed for 'chrome'
+2019-09-23 12:12:24,263|I|Thread-1|setting browser polling wait time to 800 ms
+2019-09-23 12:12:24,309|I|Thread-1|setting browser page load timeout to 10000 ms
+2019-09-23 12:12:31,080|I|Thread-1|current browser window handle:CDwindow-C642A8CFB914C72CA36D0432A8D262F5
+2019-09-23 12:12:31,171|I|Thread-1|goibibo.20190923_121216.001|Scenario|Searching tickets|#  5|web.open(url) - PASS opened URL https://www.goibibo.com
+2019-09-23 12:12:31,774|I|Thread-1|goibibo.20190923_121216.001|Scenario|Searching tickets|#  6|web.maximizeWindow() - executing maximizeWindow()()
+2019-09-23 12:12:33,139|I|Thread-1|goibibo.20190923_121216.001|Scenario|Searching tickets|#  6|web.maximizeWindow() - PASS browser window maximized
+2019-09-23 12:12:33,746|I|Thread-1|goibibo.20190923_121216.001|Scenario|Searching tickets|#  7|web.click(locator) - executing click(locator)(${loc.goibibo.from})
+2019-09-23 12:12:33,876|I|Thread-1|clicking '//input[@id='gosuggest_inputSrc']'...
+2019-09-23 12:12:33,966|I|Thread-1|click target via JS, @id=gosuggest_inputSrc
+2019-09-23 12:12:34,087|I|Thread-1|clicked -> true
+2019-09-23 12:12:34,470|I|Thread-1|goibibo.20190923_121216.001|Scenario|Searching tickets|#  7|web.click(locator) - PASS click via JS event
+2019-09-23 12:12:35,090|I|Thread-1|goibibo.20190923_121216.001|Scenario|Searching tickets|#  8|web.type(locator,value) - executing type(locator,value)(${loc.goibibo.from}, ${fromcity})
+2019-09-23 12:12:35,785|I|Thread-1|goibibo.20190923_121216.001|Scenario|Searching tickets|#  8|web.type(locator,value) - PASS typed text at '//input[@id='gosuggest_inputSrc']'
+2019-09-23 12:12:36,389|I|Thread-1|goibibo.20190923_121216.001|Scenario|Searching tickets|#  9|web.typeKeys(locator,valu - executing typeKeys(locator,value)(${loc.goibibo.from}, {DOWN})
+2019-09-23 12:12:37,163|I|Thread-1|goibibo.20190923_121216.001|Scenario|Searching tickets|#  9|web.typeKeys(locator,valu - PASS typed text at '//input[@id='gosuggest_inputSrc']'
+2019-09-23 12:12:37,781|I|Thread-1|goibibo.20190923_121216.001|Scenario|Searching tickets|# 10|web.click(locator) - executing click(locator)(${loc.goibibo.from})
+2019-09-23 12:12:37,839|I|Thread-1|clicking '//input[@id='gosuggest_inputSrc']'...
+2019-09-23 12:12:37,873|I|Thread-1|click target via JS, @id=gosuggest_inputSrc
+2019-09-23 12:12:37,927|I|Thread-1|clicked -> true
+2019-09-23 12:12:37,930|I|Thread-1|goibibo.20190923_121216.001|Scenario|Searching tickets|# 10|web.click(locator) - PASS click via JS event
+2019-09-23 12:12:38,534|I|Thread-1|goibibo.20190923_121216.001|Scenario|Searching tickets|# 11|web.type(locator,value) - executing type(locator,value)(${loc.goibibo.destination}, ${destination})
+2019-09-23 12:12:39,045|I|Thread-1|goibibo.20190923_121216.001|Scenario|Searching tickets|# 11|web.type(locator,value) - PASS typed text at '//input[@id='gosuggest_inputDest']'
+2019-09-23 12:12:39,649|I|Thread-1|goibibo.20190923_121216.001|Scenario|Searching tickets|# 12|web.typeKeys(locator,valu - executing typeKeys(locator,value)(${loc.goibibo.destination}, {DOWN})
+2019-09-23 12:12:40,369|I|Thread-1|goibibo.20190923_121216.001|Scenario|Searching tickets|# 12|web.typeKeys(locator,valu - PASS typed text at '//input[@id='gosuggest_inputDest']'
+2019-09-23 12:12:40,974|I|Thread-1|goibibo.20190923_121216.001|Scenario|Searching tickets|# 13|web.typeKeys(locator,valu - executing typeKeys(locator,value)(${loc.goibibo.destination}, {ENTER})
+2019-09-23 12:12:41,788|I|Thread-1|goibibo.20190923_121216.001|Scenario|Searching tickets|# 13|web.typeKeys(locator,valu - PASS typed text at '//input[@id='gosuggest_inputDest']'
+2019-09-23 12:12:42,395|I|Thread-1|goibibo.20190923_121216.001|Scenario|Searching tickets|# 14|web.click(locator) - executing click(locator)(${loc.goibibo.departure})
+2019-09-23 12:12:42,512|I|Thread-1|clicking '//div[@id='fare_20190914']'...
+2019-09-23 12:12:42,563|I|Thread-1|click target via JS, @id=fare_20190914
+2019-09-23 12:12:42,682|I|Thread-1|clicked -> true
+2019-09-23 12:12:42,685|I|Thread-1|goibibo.20190923_121216.001|Scenario|Searching tickets|# 14|web.click(locator) - PASS click via JS event
+2019-09-23 12:12:43,289|I|Thread-1|goibibo.20190923_121216.001|Scenario|Searching tickets|# 15|web.click(locator) - executing click(locator)(${loc.goibibo.returncalender})
+2019-09-23 12:12:43,388|I|Thread-1|clicking '//input[@id='returnCalendar']	'...
+2019-09-23 12:12:43,440|I|Thread-1|click target via JS, @id=returnCalendar
+2019-09-23 12:12:43,596|I|Thread-1|clicked -> true
+2019-09-23 12:12:43,599|I|Thread-1|goibibo.20190923_121216.001|Scenario|Searching tickets|# 15|web.click(locator) - PASS click via JS event
+2019-09-23 12:12:44,205|I|Thread-1|goibibo.20190923_121216.001|Scenario|Searching tickets|# 16|web.click(locator) - executing click(locator)(${loc.goibibo.returndate})
+2019-09-23 12:12:44,279|I|Thread-1|clicking '//div[@id='fare_20190920']'...
+2019-09-23 12:12:44,336|I|Thread-1|click target via JS, @id=fare_20190920
+2019-09-23 12:12:44,432|I|Thread-1|clicked -> true
+2019-09-23 12:12:44,435|I|Thread-1|goibibo.20190923_121216.001|Scenario|Searching tickets|# 16|web.click(locator) - PASS click via JS event
+2019-09-23 12:12:45,038|I|Thread-1|goibibo.20190923_121216.001|Scenario|Searching tickets|# 17|web.click(locator) - executing click(locator)(${loc.goibibo.travellersoption})
+2019-09-23 12:12:45,145|I|Thread-1|clicking '//span[@id='pax_label']'...
+2019-09-23 12:12:45,221|I|Thread-1|click target via JS, @id=pax_label
+2019-09-23 12:12:45,377|I|Thread-1|clicked -> true
+2019-09-23 12:12:45,382|I|Thread-1|goibibo.20190923_121216.001|Scenario|Searching tickets|# 17|web.click(locator) - PASS click via JS event
+2019-09-23 12:12:45,985|I|Thread-1|goibibo.20190923_121216.001|Scenario|Searching tickets|# 18|web.click(locator) - executing click(locator)(${loc.goibibo.noofpassengers})
+2019-09-23 12:12:46,062|I|Thread-1|clicking '//button[@id='childPaxPlus']	'...
+2019-09-23 12:12:46,107|I|Thread-1|click target via JS, @id=childPaxPlus
+2019-09-23 12:12:46,210|I|Thread-1|clicked -> true
+2019-09-23 12:12:46,213|I|Thread-1|goibibo.20190923_121216.001|Scenario|Searching tickets|# 18|web.click(locator) - PASS click via JS event
+2019-09-23 12:12:46,816|I|Thread-1|goibibo.20190923_121216.001|Scenario|Searching tickets|# 19|web.click(locator) - executing click(locator)(${loc.goibibo.closetravellersoption})
+2019-09-23 12:12:46,906|I|Thread-1|clicking '//a[@class='icon-cancel-circle fr marginT10 marginR10 fr greyDr mobdn']			'...
+2019-09-23 12:12:46,954|I|Thread-1|click target via JS, @id=pax_close
+2019-09-23 12:12:47,053|I|Thread-1|clicked -> true
+2019-09-23 12:12:47,057|I|Thread-1|goibibo.20190923_121216.001|Scenario|Searching tickets|# 19|web.click(locator) - PASS click via JS event
+2019-09-23 12:12:47,659|I|Thread-1|goibibo.20190923_121216.001|Scenario|Searching tickets|# 20|web.click(locator) - executing click(locator)(${loc.goibibo.searchbutton})
+2019-09-23 12:12:47,735|I|Thread-1|clicking '//div[@class='justifyCenter col-md-1 col-sm-12 dF padLR0']		'...
+2019-09-23 12:12:47,790|I|Thread-1|click target via JS, @id=
+2019-09-23 12:12:47,860|I|Thread-1|clicked -> true
+2019-09-23 12:12:47,864|I|Thread-1|goibibo.20190923_121216.001|Scenario|Searching tickets|# 20|web.click(locator) - PASS click via JS event
+2019-09-23 12:12:48,405|I|Thread-1|[goibibo.20190923_121216.001|Scenario] saving test scenario
+2019-09-23 12:12:48,683|I|Thread-1|[20190923_121214] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\Automationprojects\output\20190923_121214\goibibo.20190923_121216.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 28914 ms
+» Test Steps:     16
+» Error(s):       0
+
+
+
+2019-09-23 12:12:51,528|I|Thread-1|[20190923_121214] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\Automationprojects\artifact\script\goibibo.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 36986 ms
+» Iterations:     [1] total 1
+» Test Steps:     16
+» Passed:         16
+» Error(s):       0
+» Iteration 1 of 1: C:\projects\Automationprojects\output\20190923_121214\goibibo.20190923_121216.001.xlsx
+
+
+
+2019-09-23 12:12:51,602|I|main|[20190923_121214] [C:\projects\Automationprojects\artifact\script\goibibo.xlsx] now completed
+2019-09-23 12:12:51,603|I|main|[20190923_121214] all execution thread(s) have terminated
+2019-09-23 12:12:51,604|I|main|[20190923_121214] test run completed in about 37 seconds
+2019-09-23 12:12:51,868|I|main|No predefined nexial-setup found
+2019-09-23 12:12:51,978|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-09-23 12:12:51,988|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-09-23 12:12:51,994|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-09-23 12:12:52,012|I|main|generating HTML output for this execution to C:\projects\Automationprojects\output\20190923_121214\execution-output.html
+2019-09-23 12:12:53,473|I|main|generating JUnit XML output for this execution to C:\projects\Automationprojects\output\20190923_121214\junit.xml
+2019-09-23 12:12:53,531|I|main|generated JUnit report for this execution: C:\projects\Automationprojects\output\20190923_121214\junit.xml
+2019-09-23 12:12:53,563|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-09-23 12:12:53,564|I|main|skipped email notification as configured
+2019-09-23 12:12:53,566|I|main|exiting Nexial...
+2019-09-23 12:12:53,567|I|main|shutdown starts...
+2019-09-23 12:12:53,569|I|main|Shutting down 'chrome' webdriver...
+2019-09-23 12:12:59,326|I|main|shutdown ends...
+2019-09-23 12:12:59,328|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 37 sec.
+| » Test Steps....: 16
+| » Passed........: 16
+| » Failed........: 0
+| » Success Rate..: 100.00%
+\----------------------------------------------------------nexial-core 2.6_0632-
+
+2019-09-23 12:12:59,329|I|main|ALL PASSED!
+2019-09-23 12:12:59,331|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\Automationprojects\output\20190923_121214
+NEXIAL_EXECUTION_HTML: C:\projects\Automationprojects\output\20190923_121214\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\Automationprojects\output\20190923_121214\junit.xml
+NEXIAL_SUCCESS_RATE:   100.00%
+NEXIAL_EXIT_STATUS:    0

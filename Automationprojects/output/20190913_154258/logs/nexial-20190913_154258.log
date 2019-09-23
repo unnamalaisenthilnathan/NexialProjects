@@ -1,0 +1,90 @@
+2019-09-13 15:42:58,909|I|Thread-1|(DELAYED) nexial-core 2.4_0567 starting up...
+2019-09-13 15:42:58,909|I|Thread-1|(DELAYED) data file resolved as C:\Users\UNNAMA~1.S\AppData\Local\Temp\XCJBj\unna.data.xlsx
+2019-09-13 15:42:58,909|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-09-13 15:42:58,909|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-09-13 15:42:58,909|I|Thread-1|(DELAYED) [20190913_154258] [C:\projects\unna\artifact\script\unna.xlsx] resolve RUN ID as 20190913_154258
+2019-09-13 15:42:58,909|I|Thread-1|(DELAYED) [20190913_154258] [C:\projects\unna\artifact\script\unna.xlsx] new thread started
+2019-09-13 15:42:58,909|I|Thread-1|No predefined nexial-setup found
+2019-09-13 15:42:59,003|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-09-13 15:42:59,003|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-09-13 15:42:59,003|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-09-13 15:42:59,034|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-09-13 15:42:59,919|I|Thread-1|[20190913_154258] executing C:\projects\unna\artifact\script\unna.xlsx with 1 iteration(s)
+2019-09-13 15:42:59,925|I|Thread-1|[20190913_154258] create directory C:\projects\unna\output\20190913_154258\captures
+2019-09-13 15:42:59,926|I|Thread-1|[20190913_154258] create directory C:\projects\unna\output\20190913_154258\logs
+2019-09-13 15:43:00,686|I|Thread-1|[20190913_154258] merging test data to tmp file C:\projects\unna\output\20190913_154258\unna.20190913_154259.001.xlsx
+2019-09-13 15:43:00,688|I|Thread-1|refetching data from C:\projects\unna\artifact\data\unna.data.xlsx
+2019-09-13 15:43:01,096|I|Thread-1|[20190913_154258] test script and test data merged to C:\projects\unna\output\20190913_154258\unna.20190913_154259.001.xlsx
+2019-09-13 15:43:02,057|I|Thread-1|STARTS
+2019-09-13 15:43:02,072|I|Thread-1|unna.20190913_154259.001 - executing iteration #1 of 1; Iteration Id 1
+2019-09-13 15:43:02,088|I|Thread-1|unna.20190913_154259.001|Scenario - executing test scenario
+2019-09-13 15:43:02,088|I|Thread-1|unna.20190913_154259.001|Scenario|Activity 1 - executing activity
+2019-09-13 15:43:02,689|I|Thread-1|unna.20190913_154259.001|Scenario|Activity 1|#  5|web.open(url) - executing open(url)(https://www.goibibo.com/)
+2019-09-13 15:43:02,689|I|Thread-1|No valid instance of webdriver, initializing...
+2019-09-13 15:43:02,689|I|Thread-1|init firefox
+2019-09-13 15:43:02,908|E|Thread-1|Error initializing browser 'firefox': org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINDT-016', ip: '192.168.39.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: driver.version: FirefoxDriver
+2019-09-13 15:43:03,096|I|Thread-1|unna.20190913_154259.001|Scenario|Activity 1|#  5|web.open(url) - FAIL Error initializing browser 'firefox': org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ATMECSINDT-016', ip: '192.168.39.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '12.0.1'
+Driver info: driver.version: FirefoxDriver
+2019-09-13 15:43:03,111|I|Thread-1|unna.20190913_154259.001|Scenario|Activity 1 - [ABORT] due to failure on fail-fast command: web.open(url)
+2019-09-13 15:43:03,205|I|Thread-1|[unna.20190913_154259.001|Scenario] saving test scenario
+2019-09-13 15:43:03,314|I|Thread-1|unna.20190913_154259.001 - [ABORT] fail-immediate in effect - test execution will stop now.
+2019-09-13 15:43:03,314|I|Thread-1|[20190913_154258] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\unna\output\20190913_154258\unna.20190913_154259.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 1242 ms
+» Test Steps:     1
+» Error(s):       1
+
+
+
+2019-09-13 15:43:03,314|I|Thread-1|unna.20190913_154259.001 - [ABORT] fail-immediate in effect - test execution will stop now.
+2019-09-13 15:43:05,262|I|Thread-1|[20190913_154258] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\unna\artifact\script\unna.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 6589 ms
+» Iterations:     [1] total 1
+» Test Steps:     1
+» Passed:         0
+» Error(s):       1
+» Iteration 1 of 1: C:\projects\unna\output\20190913_154258\unna.20190913_154259.001.xlsx
+
+
+
+2019-09-13 15:43:05,674|I|main|[20190913_154258] [C:\projects\unna\artifact\script\unna.xlsx] now completed
+2019-09-13 15:43:05,675|I|main|[20190913_154258] all execution thread(s) have terminated
+2019-09-13 15:43:05,676|I|main|[20190913_154258] test run completed in about 7 seconds
+2019-09-13 15:43:05,783|I|main|No predefined nexial-setup found
+2019-09-13 15:43:05,840|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-09-13 15:43:05,860|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-09-13 15:43:05,861|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-09-13 15:43:05,861|I|main|generating HTML output for this execution to C:\projects\unna\output\20190913_154258\execution-output.html
+2019-09-13 15:43:06,720|I|main|generating JUnit XML output for this execution to C:\projects\unna\output\20190913_154258\junit.xml
+2019-09-13 15:43:06,767|I|main|generated JUnit report for this execution: C:\projects\unna\output\20190913_154258\junit.xml
+2019-09-13 15:43:06,783|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-09-13 15:43:06,783|I|main|skipped email notification as configured
+2019-09-13 15:43:06,783|I|main|exiting Nexial...
+2019-09-13 15:43:06,799|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 7 sec.
+| » Test Steps....: 1
+| » Passed........: 0
+| » Failed........: 1
+| » Success Rate..: 0.00%
+\----------------------------------------------------------nexial-core 2.4_0567-
+
+2019-09-13 15:43:06,799|E|main|failure found; success rate is 0.00%
+2019-09-13 15:43:06,799|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\unna\output\20190913_154258
+NEXIAL_EXECUTION_HTML: C:\projects\unna\output\20190913_154258\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\unna\output\20190913_154258\junit.xml
+NEXIAL_SUCCESS_RATE:   0.00%
+NEXIAL_EXIT_STATUS:    -13

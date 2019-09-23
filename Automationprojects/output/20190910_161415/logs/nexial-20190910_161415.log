@@ -1,0 +1,79 @@
+2019-09-10 16:14:16,251|I|Thread-1|(DELAYED) nexial-core 2.4_0567 starting up...
+2019-09-10 16:14:16,254|I|Thread-1|(DELAYED) data file resolved as C:\Users\UNNAMA~1.S\AppData\Local\Temp\kvlRf\unna.data.xlsx
+2019-09-10 16:14:16,254|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-09-10 16:14:16,254|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-09-10 16:14:16,254|I|Thread-1|(DELAYED) [20190910_161415] [C:\projects\unna\artifact\script\unna.xlsx] resolve RUN ID as 20190910_161415
+2019-09-10 16:14:16,254|I|Thread-1|(DELAYED) [20190910_161415] [C:\projects\unna\artifact\script\unna.xlsx] new thread started
+2019-09-10 16:14:16,255|I|Thread-1|No predefined nexial-setup found
+2019-09-10 16:14:16,334|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-09-10 16:14:16,336|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-09-10 16:14:16,337|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-09-10 16:14:16,377|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-09-10 16:14:17,242|I|Thread-1|[20190910_161415] executing C:\projects\unna\artifact\script\unna.xlsx with 1 iteration(s)
+2019-09-10 16:14:17,258|I|Thread-1|[20190910_161415] create directory C:\projects\unna\output\20190910_161415\captures
+2019-09-10 16:14:17,260|I|Thread-1|[20190910_161415] create directory C:\projects\unna\output\20190910_161415\logs
+2019-09-10 16:14:17,936|I|Thread-1|[20190910_161415] merging test data to tmp file C:\projects\unna\output\20190910_161415\unna.20190910_161417.001.xlsx
+2019-09-10 16:14:17,940|I|Thread-1|refetching data from C:\projects\unna\artifact\data\unna.data.xlsx
+2019-09-10 16:14:18,722|I|Thread-1|[20190910_161415] test script and test data merged to C:\projects\unna\output\20190910_161415\unna.20190910_161417.001.xlsx
+2019-09-10 16:14:19,618|I|Thread-1|STARTS
+2019-09-10 16:14:19,642|I|Thread-1|unna.20190910_161417.001 - executing iteration #1 of 1; Iteration Id 1
+2019-09-10 16:14:19,672|I|Thread-1|unna.20190910_161417.001|Scenario - executing test scenario
+2019-09-10 16:14:19,676|I|Thread-1|unna.20190910_161417.001|Scenario|Activity 1 - executing activity
+2019-09-10 16:14:20,285|I|Thread-1|unna.20190910_161417.001|Scenario|Activity 1|#  5|base.verbose(text) - executing verbose(text)(Hello world)
+2019-09-10 16:14:20,291|I|Thread-1|unna.20190910_161417.001|Scenario|Activity 1|#  5|base.verbose(text) - Hello world
+2019-09-10 16:14:20,530|I|Thread-1|unna.20190910_161417.001|Scenario|Activity 1|#  5|base.verbose(text) - PASS 
+2019-09-10 16:14:20,787|I|Thread-1|[unna.20190910_161417.001|Scenario] saving test scenario
+2019-09-10 16:14:21,268|I|Thread-1|[20190910_161415] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\unna\output\20190910_161415\unna.20190910_161417.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 1603 ms
+» Test Steps:     1
+» Error(s):       0
+
+
+
+2019-09-10 16:14:24,003|I|Thread-1|[20190910_161415] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\unna\artifact\script\unna.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 7959 ms
+» Iterations:     [1] total 1
+» Test Steps:     1
+» Passed:         1
+» Error(s):       0
+» Iteration 1 of 1: C:\projects\unna\output\20190910_161415\unna.20190910_161417.001.xlsx
+
+
+
+2019-09-10 16:14:24,008|I|main|[20190910_161415] [C:\projects\unna\artifact\script\unna.xlsx] now completed
+2019-09-10 16:14:24,009|I|main|[20190910_161415] all execution thread(s) have terminated
+2019-09-10 16:14:24,010|I|main|[20190910_161415] test run completed in about 8 seconds
+2019-09-10 16:14:24,129|I|main|No predefined nexial-setup found
+2019-09-10 16:14:24,186|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-09-10 16:14:24,188|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-09-10 16:14:24,189|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-09-10 16:14:24,191|I|main|generating HTML output for this execution to C:\projects\unna\output\20190910_161415\execution-output.html
+2019-09-10 16:14:25,139|I|main|generating JUnit XML output for this execution to C:\projects\unna\output\20190910_161415\junit.xml
+2019-09-10 16:14:25,182|I|main|generated JUnit report for this execution: C:\projects\unna\output\20190910_161415\junit.xml
+2019-09-10 16:14:25,208|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-09-10 16:14:25,210|I|main|skipped email notification as configured
+2019-09-10 16:14:25,214|I|main|exiting Nexial...
+2019-09-10 16:14:25,222|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 8 sec.
+| » Test Steps....: 1
+| » Passed........: 1
+| » Failed........: 0
+| » Success Rate..: 100.00%
+\----------------------------------------------------------nexial-core 2.4_0567-
+
+2019-09-10 16:14:25,227|I|main|ALL PASSED!
+2019-09-10 16:14:25,229|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\unna\output\20190910_161415
+NEXIAL_EXECUTION_HTML: C:\projects\unna\output\20190910_161415\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\unna\output\20190910_161415\junit.xml
+NEXIAL_SUCCESS_RATE:   100.00%
+NEXIAL_EXIT_STATUS:    0
