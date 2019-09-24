@@ -1,0 +1,97 @@
+2019-09-23 18:05:00,004|I|Thread-1|(DELAYED) nexial-core 2.6_0632 starting up...
+2019-09-23 18:05:00,009|I|Thread-1|(DELAYED) data file resolved as C:\Users\UNNAMA~1.S\AppData\Local\Temp\GTVIJ\BaseCommand.data.xlsx
+2019-09-23 18:05:00,010|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-09-23 18:05:00,010|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-09-23 18:05:00,010|I|Thread-1|(DELAYED) [20190923_180459] [C:\projects\Automationprojects\artifact\script\BaseCommand.xlsx] resolve RUN ID as 20190923_180459
+2019-09-23 18:05:00,011|I|Thread-1|(DELAYED) [20190923_180459] [C:\projects\Automationprojects\artifact\script\BaseCommand.xlsx] new thread started
+2019-09-23 18:05:00,098|I|Thread-1|No predefined nexial-setup found
+2019-09-23 18:05:00,195|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-09-23 18:05:00,198|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-09-23 18:05:00,199|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-09-23 18:05:00,236|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-09-23 18:05:01,271|I|Thread-1|[20190923_180459] executing C:\projects\Automationprojects\artifact\script\BaseCommand.xlsx with 1 iteration(s)
+2019-09-23 18:05:01,287|I|Thread-1|[20190923_180459] create directory C:\projects\Automationprojects\output\20190923_180459\captures
+2019-09-23 18:05:01,291|I|Thread-1|[20190923_180459] create directory C:\projects\Automationprojects\output\20190923_180459\logs
+2019-09-23 18:05:02,055|I|Thread-1|[20190923_180459] merging test data to tmp file C:\projects\Automationprojects\output\20190923_180459\BaseCommand.20190923_180501.001.xlsx
+2019-09-23 18:05:02,056|I|Thread-1|refetching data from C:\projects\Automationprojects\artifact\data\BaseCommand.data.xlsx
+2019-09-23 18:05:02,434|I|Thread-1|[20190923_180459] test script and test data merged to C:\projects\Automationprojects\output\20190923_180459\BaseCommand.20190923_180501.001.xlsx
+2019-09-23 18:05:03,271|I|Thread-1|STARTS
+2019-09-23 18:05:03,309|I|Thread-1|BaseCommand.20190923_180501.001 - executing iteration #1 of 1; Iteration Id 1
+2019-09-23 18:05:03,322|I|Thread-1|BaseCommand.20190923_180501.001|Scenario - executing test scenario
+2019-09-23 18:05:03,324|I|Thread-1|BaseCommand.20190923_180501.001|Scenario|base - executing activity
+2019-09-23 18:05:03,928|I|Thread-1|BaseCommand.20190923_180501.001|Scenario|base|#  5|base.appendText(var,appen - executing appendText(var,appendWith)(var, sxax,xsx,sxsx)
+2019-09-23 18:05:03,940|I|Thread-1|BaseCommand.20190923_180501.001|Scenario|base|#  5|base.appendText(var,appen - PASS appended 'sxax,xsx,sxsx' to ${var}
+2019-09-23 18:05:04,542|I|Thread-1|BaseCommand.20190923_180501.001|Scenario|base|#  6|base.assertEqual(expected - executing assertEqual(expected,actual)(${var}, sxax,xsx,sxsx)
+2019-09-23 18:05:04,740|I|Thread-1|BaseCommand.20190923_180501.001|Scenario|base|#  6|base.assertEqual(expected - PASS validated EXPECTED = ACTUAL; 'sxax,xsx,sxsx' = 'sxax,xsx,sxsx'
+2019-09-23 18:05:05,343|I|Thread-1|BaseCommand.20190923_180501.001|Scenario|base|#  7|base.save(var,value) - executing save(var,value)(var1, ${var2})
+2019-09-23 18:05:05,364|I|Thread-1|BaseCommand.20190923_180501.001|Scenario|base|#  7|base.save(var,value) - PASS stored '' as ${var1}
+2019-09-23 18:05:05,985|I|Thread-1|BaseCommand.20190923_180501.001|Scenario|base|#  8|base.assertEqual(expected - executing assertEqual(expected,actual)(${var1}, unna)
+2019-09-23 18:05:06,053|E|Thread-1|BaseCommand.20190923_180501.001|Scenario|base|#  8|base.assertEqual(expected - FAIL 
+expected=<empty>
+actual  =unna
+2019-09-23 18:05:06,664|I|Thread-1|BaseCommand.20190923_180501.001|Scenario|base|#  9|base.prependText(var,prep - executing prependText(var,prependWith)(var1, senthil,)
+2019-09-23 18:05:06,675|I|Thread-1|BaseCommand.20190923_180501.001|Scenario|base|#  9|base.prependText(var,prep - PASS prepend 'senthil, to ${var1}
+2019-09-23 18:05:07,289|I|Thread-1|BaseCommand.20190923_180501.001|Scenario|base|# 10|base.appendText(var,appen - executing appendText(var,appendWith)(var1, !!!)
+2019-09-23 18:05:07,302|I|Thread-1|BaseCommand.20190923_180501.001|Scenario|base|# 10|base.appendText(var,appen - PASS appended '!!!' to ${var1}
+2019-09-23 18:05:07,915|I|Thread-1|BaseCommand.20190923_180501.001|Scenario|base|# 11|base.assertEqual(expected - executing assertEqual(expected,actual)(${var1}, senthil,unna!!!)
+2019-09-23 18:05:07,948|E|Thread-1|BaseCommand.20190923_180501.001|Scenario|base|# 11|base.assertEqual(expected - FAIL 
+expected=senthil,!!!
+actual  =senthil,unna!!!
+2019-09-23 18:05:08,560|I|Thread-1|BaseCommand.20190923_180501.001|Scenario|base|# 12|base.verbose(text) - executing verbose(text)(Hello ${var1})
+2019-09-23 18:05:08,573|I|Thread-1|BaseCommand.20190923_180501.001|Scenario|base|# 12|base.verbose(text) - Hello senthil,!!!
+2019-09-23 18:05:08,591|I|Thread-1|BaseCommand.20190923_180501.001|Scenario|base|# 12|base.verbose(text) - PASS 
+2019-09-23 18:05:08,790|I|Thread-1|[BaseCommand.20190923_180501.001|Scenario] saving test scenario
+2019-09-23 18:05:08,921|I|Thread-1|[20190923_180459] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\Automationprojects\output\20190923_180459\BaseCommand.20190923_180501.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 5600 ms
+» Test Steps:     8
+» Error(s):       2
+
+
+
+2019-09-23 18:05:10,838|I|Thread-1|[20190923_180459] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\Automationprojects\artifact\script\BaseCommand.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 11083 ms
+» Iterations:     [1] total 1
+» Test Steps:     8
+» Passed:         6
+» Error(s):       2
+» Iteration 1 of 1: C:\projects\Automationprojects\output\20190923_180459\BaseCommand.20190923_180501.001.xlsx
+
+
+
+2019-09-23 18:05:11,682|I|main|[20190923_180459] [C:\projects\Automationprojects\artifact\script\BaseCommand.xlsx] now completed
+2019-09-23 18:05:11,686|I|main|[20190923_180459] all execution thread(s) have terminated
+2019-09-23 18:05:11,689|I|main|[20190923_180459] test run completed in about 12 seconds
+2019-09-23 18:05:11,794|I|main|No predefined nexial-setup found
+2019-09-23 18:05:11,837|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-09-23 18:05:11,838|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-09-23 18:05:11,839|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-09-23 18:05:11,841|I|main|generating HTML output for this execution to C:\projects\Automationprojects\output\20190923_180459\execution-output.html
+2019-09-23 18:05:12,503|I|main|generating JUnit XML output for this execution to C:\projects\Automationprojects\output\20190923_180459\junit.xml
+2019-09-23 18:05:12,557|I|main|generated JUnit report for this execution: C:\projects\Automationprojects\output\20190923_180459\junit.xml
+2019-09-23 18:05:12,582|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-09-23 18:05:12,583|I|main|skipped email notification as configured
+2019-09-23 18:05:12,585|I|main|exiting Nexial...
+2019-09-23 18:05:12,588|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 12 sec.
+| » Test Steps....: 8
+| » Passed........: 6
+| » Failed........: 2
+| » Success Rate..: 75.00%
+\----------------------------------------------------------nexial-core 2.6_0632-
+
+2019-09-23 18:05:12,590|E|main|failure found; success rate is 75.00%
+2019-09-23 18:05:12,599|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\Automationprojects\output\20190923_180459
+NEXIAL_EXECUTION_HTML: C:\projects\Automationprojects\output\20190923_180459\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\Automationprojects\output\20190923_180459\junit.xml
+NEXIAL_SUCCESS_RATE:   75.00%
+NEXIAL_EXIT_STATUS:    -13

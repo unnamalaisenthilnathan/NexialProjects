@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="20190923_181012" timestamp="2019-09-23T18:10:12" time="10.017" tests="5" errors="0">
+  <testsuite id="1" name="BaseCommand" package="BaseCommand" hostname="ATMECSINDT-016" timestamp="2019-09-23T18:10:13" time="5.851" tests="5" errors="0">
+    <properties>
+      <property name="Run From" value="ATMECSINDT-016" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="Unnamalai.S" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="BaseCommand.xlsx" />
+      <property name="Logs" value="C:\projects\Automationprojects\output\20190923_181012\logs\nexial-20190923_181012.log" />
+      <property name="Data File" value="BaseCommand.data.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="runtime args" value="-script C:\projects\Automationprojects\artifact\script\BaseCommand.xlsx" />
+    </properties>
+    <testcase id="base" name="base" classname="Scenario" timestamp="2019-09-23T18:10:15" time="3.775">
+      <system-out>Total : 5
+Passed: 5
+Failed: 0
+Output: C:\projects\Automationprojects\output\20190923_181012\BaseCommand.20190923_181013.001.xlsx
+Logs  : C:\projects\Automationprojects\output\20190923_181012\logs\nexial-20190923_181012.log</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

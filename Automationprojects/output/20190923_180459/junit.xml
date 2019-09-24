@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="20190923_180459" timestamp="2019-09-23T18:04:59" time="12.018" tests="8" errors="2">
+  <testsuite id="1" name="BaseCommand" package="BaseCommand" hostname="ATMECSINDT-016" timestamp="2019-09-23T18:05:01" time="7.753" tests="8" errors="2">
+    <properties>
+      <property name="Run From" value="ATMECSINDT-016" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="Unnamalai.S" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="BaseCommand.xlsx" />
+      <property name="Logs" value="C:\projects\Automationprojects\output\20190923_180459\logs\nexial-20190923_180459.log" />
+      <property name="Data File" value="BaseCommand.data.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="runtime args" value="-script C:\projects\Automationprojects\artifact\script\BaseCommand.xlsx" />
+    </properties>
+    <testcase id="base" name="base" classname="Scenario" timestamp="2019-09-23T18:05:03" time="5.704">
+      <failure type="failure found in test activity" message="2 of 8 FAILED. Check C:\projects\Automationprojects\output\20190923_180459\BaseCommand.20190923_180501.001.xlsx for execution result, C:\projects\Automationprojects\output\20190923_180459\logs\nexial-20190923_180459.log for execution logs" />
+      <system-out>Total : 8
+Passed: 6
+Failed: 2
+Output: C:\projects\Automationprojects\output\20190923_180459\BaseCommand.20190923_180501.001.xlsx
+Logs  : C:\projects\Automationprojects\output\20190923_180459\logs\nexial-20190923_180459.log</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>
